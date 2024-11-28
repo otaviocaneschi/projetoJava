@@ -1,0 +1,94 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27 de nov. de 2024, 21:07:55
+    Author     : Marcos Shigetomi/Lucas Kevin
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+/* Contêiner para centralizar o conteúdo */
+.container {
+    text-align: center;
+}
+
+/* Estilo do título */
+h1 {
+    margin: 0 0 20px; /* Espaço abaixo do título */
+    font-size: 24px;
+    text-align: center; /* Garante que o texto do título está centralizado */
+}
+
+/* Centralizar e ajustar o formulário */
+form {
+    background-color: #ffffff;
+    padding: 15px 20px; /* Reduzido para tornar o formulário menor */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Alinha os rótulos e campos à esquerda */
+    max-width: 300px; /* Formulário mais estreito */
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Estilo dos rótulos */
+label {
+    font-size: 14px; /* Um pouco menor */
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+/* Estilo dos campos de entrada */
+input[type="number"],
+input[type="submit"] {
+    width: 100%;
+    padding: 8px; /* Menor preenchimento */
+    margin-bottom: 15px; /* Espaço entre campos reduzido */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Estilo do botão */
+input[type="submit"] {
+    background-color: #dc3545; /* Cor vermelha para deletar */
+    color: white;
+    padding: 8px 15px; /* Botão mais compacto */
+    border: none;
+    border-radius: 20px;
+    font-size: 14px; /* Texto menor */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Mantém o botão preenchendo a largura */
+}
+
+input[type="submit"]:hover {
+    background-color: #c82333;
+}
+
+/* Link de navegação */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px; /* Menor espaçamento */
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
